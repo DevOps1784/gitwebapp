@@ -9,12 +9,6 @@ trigger:
 pool:
   vmImage: 'windows-latest'
 
-trigger:
-- master
-
-pool:
-  vmImage: 'windows-latest'
-
 steps:
 - checkout: self
 
